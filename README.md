@@ -78,7 +78,7 @@ Workshop Hướng Dẫn Arduino Cơ Bản
 - Bài 9: Đo nhiệt độ độ ẩm bằng cảm biến DHT11 hiển thị lên LCD1602 (Library)
 - Bài 10: Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh (Tổng hợp)
 
- Lời giải các bài tập thực hành
+ [Lời giải các bài tập thực hành](/solution/README.md)
 
 ![](/image/mke_arduino_stk5.jpg)
 1 trong 10 dự án: "Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh"
