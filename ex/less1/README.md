@@ -103,11 +103,11 @@ Bài tập 1:
 
 ## Tài liệu tham khảo
 
-- Các lệnh chức năng cho giao tiếp Serial.
+- [Các lệnh chức năng cho giao tiếp Serial.]()
 - Bảng mã ASCII.
 - Getting Started with Arduino | Arduino Documentation
 
 ## Bài viết liên quan
 
-- Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki
-- Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)
+- [Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki](/README.md)
+- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](/ex/less2/README.md)
