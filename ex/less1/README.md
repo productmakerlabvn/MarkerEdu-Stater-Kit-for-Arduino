@@ -103,9 +103,9 @@ Bài tập 1:
 
 ## Tài liệu tham khảo
 
-- [Các lệnh chức năng cho giao tiếp Serial.]()
-- Bảng mã ASCII.
-- Getting Started with Arduino | Arduino Documentation
+- [Các lệnh chức năng cho giao tiếp Serial.](https://docs.arduino.cc/language-reference/en/functions/communication/serial/)
+- [Bảng mã ASCII.](https://computersciencewiki.org/index.php/ASCII)
+- [Getting Started with Arduino | Arduino Documentation](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 
 ## Bài viết liên quan
 
