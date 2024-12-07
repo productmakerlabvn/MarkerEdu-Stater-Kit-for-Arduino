@@ -67,7 +67,7 @@ Workshop Hướng Dẫn Arduino Cơ Bản
 
 ## Các bài thực hành
 
-- Bài 1: Xin chào Arduino! (Serial Monitor)
+- [Bài 1: Xin chào Arduino! (Serial Monitor)](/ex/less1/README.md)
 - Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)
 - Bài 3: Nhận tín hiệu từ nút nhấn với Arduino (Digital In)
 - Bài 4: Nhận tín hiệu từ biến trở với Arduino (Analog In)
@@ -84,11 +84,13 @@ Workshop Hướng Dẫn Arduino Cơ Bản
 1 trong 10 dự án: "Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh"
 
 ## Liên hệ
-Mọi thắc mắc xin liên hệ Facebook **"MakerLab.vn RnD"** hoặc Nhóm **"Maker DIY Vietnam"**.
+
+Mọi thắc mắc xin liên hệ Facebook [**"MakerLab.vn RnD"**](https://www.facebook.com/makerlabvn) hoặc Nhóm [**"Maker DIY Vietnam"**](https://www.facebook.com/groups/makervn/).
 
 Email: <contact.makerlabvn@gmail.com>
 
 ## Nhà phân phối
+
 Có thể mua Bộ MakerEdu Starter Kit for Arduino tại các nhà phân phối sau:
 
 - [Hshop.vn - Điện tử & Robot.](https://hshop.vn)
