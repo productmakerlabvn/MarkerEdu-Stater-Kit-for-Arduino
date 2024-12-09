@@ -2,7 +2,7 @@
 
 ## Mô tả dự án
 
-![](/ex/less1/image/01_1050px-Serial-monitor-new-editor.png)
+![](/ex/less01/image/01_1050px-Serial-monitor-new-editor.png)
 Arduino Serial Monitor
 Trong bài thực hành đầu tiên này các bạn sẽ học cách giao tiếp giữa mạch Vietduino Uno và máy tính qua công cụ Serial Monitor trên phần mềm Arduino, qua đó các bạn có thể gửi các dữ liệu từ Vietduino Uno lên máy tính và ngược lại sẽ giúp bạn thực hiện vô số các ứng dụng sau này như:
 
@@ -19,7 +19,7 @@ Các bạn có thể tìm hiểu thêm bài viết về Cách sử dụng Serial
 
 ## Video
 
-[![](/ex/less1/image/02_video.png)](https://youtu.be/PxlqWvR3NM0)
+[![](/ex/less01/image/02_video.png)](https://youtu.be/PxlqWvR3NM0)
 
 ## Các bước thực hiện
 
@@ -33,7 +33,7 @@ Các bạn có thể tìm hiểu thêm bài viết về Cách sử dụng Serial
 - Kết nối mạch Vietduino Uno với máy tính qua cáp USB-C sẽ thấy đèn nguồn (ON) trên mạch phát sáng, cài đặt Driver và cấu hình mạch trên phần mềm Arduino [theo hướng dẫn tại đây](https://makerlab.vn/vuno).
 - Tìm hiểu về cấu trúc của một chương trình trên phầm mềm Arduino và ngôn ngữ lập trình Arduino tại đây.
 
-![](/ex/less1/image/03_1050px-Vietduino_Uno_connect_with_Computer.jpg)
+![](/ex/less01/image/03_1050px-Vietduino_Uno_connect_with_Computer.jpg)
 Kết nối Vietduino Uno với máy tính bằng cáp USB-C
 
 ### Chương trình
@@ -92,7 +92,7 @@ Chương trình gồm các câu lệnh được đặt trong 2 hàm bắt buộc
 
 Sau khi đã nạp code thành công, nhấn vào "biểu tượng kính lúp" hoặc chọn Tools > Serial Monitor để mở Serial Monitor, chọn đúng tốc độ Baudrate là 115200bps để thấy chương trình hoạt động, nhập ký tự "abcd" sẽ nhận được kết quả như sau:
 
-![](/ex/less1/image/04_1050px-Chương_trình_Xin_Chào_Arduino!.png)
+![](/ex/less01/image/04_1050px-Chương_trình_Xin_Chào_Arduino!.png)
 Chương trình Xin Chào Arduino!
 
 ### Bài tập thêm
