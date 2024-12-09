@@ -9,7 +9,7 @@ Trong bài này các bạn sẽ học cách xuất tín hiệu Digital từ các
 
 > Lưu ý:  
  Các chân tín hiệu Digital của Arduino chỉ có thể cung cấp được điện áp 5VDC với dòng điện tối đa 40mA nên chỉ sử dụng được với những thiết bị công suất nhỏ như đèn Led (15~20mA), các thiết bị công suất lớn như động cơ cần sử dụng thêm mạch công suất đi kèm để điều khiển.  
-Các bạn có thể tìm hiểu thêm bài viết về [Tín hiệu Analog, Digital và các chuẩn giao tiếp cơ bản]().
+Các bạn có thể tìm hiểu thêm bài viết về [Tín hiệu Analog, Digital và các chuẩn giao tiếp cơ bản](/ex/less02/A_D_signal_and_interface/README.md).
 
 ## Video
 
