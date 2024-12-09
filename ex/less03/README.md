@@ -180,6 +180,6 @@ Serial Monitor trên phần mềm Arduino hiển thị trạng thái của modul
 
 ## Bài viết liên quan
 
-- [Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki](README.md)
-- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](ex\less02\README.md)
-- [Bài 4: Nhận tín hiệu từ biến trở với Arduino (Analog In)](ex\less04\README.md)
+- [Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki](/README.md)
+- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](/ex/less02/README.md)
+- [Bài 4: Nhận tín hiệu từ biến trở với Arduino (Analog In)](/ex/less04/README.md)
