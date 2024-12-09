@@ -48,6 +48,8 @@ Kết nối giữa các thiết bị sử dụng chuẩn giao tiếp I2C.
 Chuẩn giao tiếp I2C là viết tắt của (Inter-Integrated Circuit) tức chuẩn giao tiếp nội bộ giữa các mạch tích hợp ban đầu được phát triển bởi công ty Phillips Corporation (nay là NXP Semiconductors) giúp kết nối giữa nhiều thiết bị tốc độ thấp với nhau thông qua hai dây tín hiệu là SDA (Serial Data) và SCL (Serial Clock), trong chuẩn kết nối I2C sẽ có một thiết bị chủ (Master) kết nối với một hoặc nhiều thiết bị tớ (Slave), các thiết bị tớ (Slave) này sẽ được thiết lập địa chỉ khác nhau, khi cần giao tiếp thiết bị chủ (Master) sẽ gọi địa chỉ của thiết bị tớ (Slave) cần giao tiếp để trao đổi thông tin. Các lưu ý khi sử dụng chuẩn giao tiếp I2C:
 
 Các thiết bị chủ (Master) và tớ (Slave) được kết nối song song qua hai dây tín hiệu là SDA (dữ liệu) và SCL (xung nhịp), hai dây tín hiệu này cần được nối lên mức cao (High) của mức áp giao tiếp bằng điện trở kéo phù hợp.
-Các thiết bị tớ (Slave) sẽ được thiết lập địa chỉ duy nhất, không trùng với các thiết bị khác trong mạng sẽ gây ra lỗi.
-Tham khảo
-[Logic Levels - SparkFun Learn](https://learn.sparkfun.com/tutorials/logic-levels)
+Các thiết bị tớ (Slave) sẽ được thiết lập địa chỉ duy nhất, không trùng với các thiết bị khác trong mạng sẽ gây ra lỗi.  
+
+## Tham khảo  
+
+- [Logic Levels - SparkFun Learn](https://learn.sparkfun.com/tutorials/logic-levels)
