@@ -165,7 +165,7 @@ Serial Monitor trên phần mềm Arduino hiển thị trạng thái của modul
 
 <ins>Bài tập 1</ins>:
 
-- Bạn hãy thử thay đổi thông số `TIME_DEBOUNC`E về **0** và xem kết quả thao tác nút nhấn thế nào khi ta đã bỏ qua khoảng thời gian để xác minh.  
+- Bạn hãy thử thay đổi thông số `TIME_DEBOUNCE` về **0** và xem kết quả thao tác nút nhấn thế nào khi ta đã bỏ qua khoảng thời gian để xác minh.  
 
 <ins>Bài tập 2</ins>:
 
