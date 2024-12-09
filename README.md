@@ -67,15 +67,15 @@ Workshop Hướng Dẫn Arduino Cơ Bản
 
 ## Các bài thực hành
 
-- [Bài 1: Xin chào Arduino! (Serial Monitor)](/ex/less1/README.md)
-- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](/ex/less2/README.md)
-- [Bài 3: Nhận tín hiệu từ nút nhấn với Arduino (Digital In)](/ex/less3/README.md)
-- [Bài 4: Nhận tín hiệu từ biến trở với Arduino (Analog In)](/ex/less4/README.md)
-- [Bài 5: Điều kiển độ sáng đèn Led với Arduino (Analog Out)](/ex/less5/README.md)
-- [Bài 6: Hiển thị thông tin lên màn hình LCD với Arduino (Library)](/ex/less6/README.md)
-- [Bài 7: Bật tắt đèn tự động với cảm biến ánh sáng quang trở và đèn Led (Analog In + Digital Out)](/ex/less7/README.md)
-- [Bài 8: Báo cháy với cảm biến lửa và còi Buzzer (Analog In + Digital Out)](/ex/less8/README.md)
-- [Bài 9: Đo nhiệt độ độ ẩm bằng cảm biến DHT11 hiển thị lên LCD1602 (Library)](/ex/less9/README.md)
+- [Bài 1: Xin chào Arduino! (Serial Monitor)](/ex/less01/README.md)
+- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](/ex/less02/README.md)
+- [Bài 3: Nhận tín hiệu từ nút nhấn với Arduino (Digital In)](/ex/less03/README.md)
+- [Bài 4: Nhận tín hiệu từ biến trở với Arduino (Analog In)](/ex/less04/README.md)
+- [Bài 5: Điều kiển độ sáng đèn Led với Arduino (Analog Out)](/ex/less05/README.md)
+- [Bài 6: Hiển thị thông tin lên màn hình LCD với Arduino (Library)](/ex/less06/README.md)
+- [Bài 7: Bật tắt đèn tự động với cảm biến ánh sáng quang trở và đèn Led (Analog In + Digital Out)](/ex/less07/README.md)
+- [Bài 8: Báo cháy với cảm biến lửa và còi Buzzer (Analog In + Digital Out)](/ex/less08/README.md)
+- [Bài 9: Đo nhiệt độ độ ẩm bằng cảm biến DHT11 hiển thị lên LCD1602 (Library)](/ex/less09/README.md)
 - [Bài 10: Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh (Tổng hợp)](/ex/less10/README.md)
 
  [Lời giải các bài tập thực hành](/solution/README.md)
