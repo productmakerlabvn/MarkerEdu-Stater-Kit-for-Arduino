@@ -95,7 +95,7 @@ Chương trình gồm các câu lệnh được đặt trong 2 hàm bắt buộc
 <tbody>
   <tr>
     <td>Port D9</td>
-    <td><a href="https://wiki.makerlab.vn/index.php/M%E1%BA%A1ch_led_%C4%91%C6%A1n_MKE-M01_10mm_single_LED_module">Mạch led đơn MKE-M01 10mm single LED module</a></td>
+    <td><a href="https://makerlab.vn/mkem01">Mạch led đơn MKE-M01 10mm single LED module</a></td>
     <td><a href="https://hshop.vn/products/cap-ket-noi-makeredu-xh2-54-3wires-20cm-cable">MakerEdu XH2.54 3Wires</a></td>
   </tr>
 </tbody>
@@ -107,6 +107,7 @@ Sau khi đã nạp code thành công, nhấn vào *"biểu tượng kính lúp"*
 
 ![](/ex/less02/image/04_.jpg)
 Module Led kết nối với Port D9 trên MakerEdu Shield chớp tắt 1 giây / 1 lần.
+
 ![](/ex/less02/image/05_1050px-Screenshot_2023-07-08_at_17.05.57.png)
 Serial Monitor trên phần mềm Arduino hiển thị trạng thái của đèn Led.
 
