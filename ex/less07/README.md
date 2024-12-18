@@ -198,6 +198,6 @@ Viết chương trình điều chỉnh **độ sáng của đèn thích ứng th
 
 ## Bài viết liên quan
 
-[Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki](/README.md)
-[Bài 6: Hiển thị thông tin lên màn hình LCD với Arduino (Library)](/ex/less06/README.md)
-[Bài 8: Báo cháy với cảm biến lửa và còi Buzzer (Analog In + Digital Out)](/ex/less08/README.md)
+- [Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki](/README.md)
+- [Bài 6: Hiển thị thông tin lên màn hình LCD với Arduino (Library)](/ex/less06/README.md)
+- [Bài 8: Báo cháy với cảm biến lửa và còi Buzzer (Analog In + Digital Out)](/ex/less08/README.md)
