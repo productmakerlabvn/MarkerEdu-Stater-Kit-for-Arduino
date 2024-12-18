@@ -158,7 +158,7 @@ Sau đó ta cần khai báo đối tượng cần điều khiển như ở đây
   <tr>
     <td>Port I2C</td>
     <td><a href="https://makerlab.vn/mkem07">Mạch hiển thị MKE-M07 LCD1602 I2C module</a></td>
-    <td>MakerEdu XH2.54 4Wires</td>
+    <td><a href="https://hshop.vn/cap-ket-noi-makeredu-xh2-54-4wires-20cm-cable">MakerEdu XH2.54 4Wires</td>
   </tr>
 </tbody>
 </table>
