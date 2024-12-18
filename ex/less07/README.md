@@ -9,7 +9,7 @@ Automatic street lights
 
 ## Video
 
-![](/ex/less07/image/02_video.png)
+[![](/ex/less07/image/02_video.png)](https://youtu.be/qOHlDC1ItIo)
 
 ## Các bước thực hiện
 
