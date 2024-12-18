@@ -28,7 +28,7 @@ Kết nối giữa các thiết bị sử dụng chuẩn giao tiếp I2C.
 - Kết nối mạch Vietduino Uno với máy tính qua cáp USB-C sẽ thấy đèn nguồn (ON) trên mạch MakerEdu Shield phát sáng, cài đặt Driver và cấu hình mạch trên phần mềm Arduino [theo hướng dẫn tại đây](https://makerlab.vn/vuno).
 - Tìm hiểu về cấu trúc của một chương trình trên phầm mềm Arduino và ngôn ngữ lập trình Arduino tại đây.
 
-![](/ex/less06/image/03_1050px-Kết_nối_mạch_Vietduino_Uno_+_MakerEdu_Shield_với_máy_tính.jpg)
+![](/ex/less06/image/03_connect.jpg)
 Kết nối mạch Vietduino Uno + MakerEdu Shield với máy tính
 
 Cài đặt bộ thư viện (Library)
@@ -141,7 +141,6 @@ Sau đó ta cần khai báo đối tượng cần điều khiển như ở đây
 `delay(time)`: yêu cầu Vietduino Uno chờ (không làm gì cả) trong một khoảng thời gian nhất định, đơn vị là mili giây (ms).
 
 <ins>Quá trình vận hành của chương trình như sau</ins>
--
 
 - Khởi động đối tượng "lcd1" tại địa chỉ 0x27 với cấu hình là 16 ký tự, 2 dòng.
 - In các thông tin và đếm ngược từ 5 đến 0.
@@ -149,21 +148,41 @@ Sau đó ta cần khai báo đối tượng cần điều khiển như ở đây
 
 ## Sơ đồ kết nối
 
-MakerEDU Shield Thiết bị Cáp kết nối
-Port I2C Mạch hiển thị MKE-M07 LCD1602 I2C module MakerEdu XH2.54 4Wires
-Kết quả
+<table><thead>
+  <tr>
+    <th>MakerEDU Shield</th>
+    <th>Thiết bị</th>
+    <th>Cáp kết nối</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Port I2C</td>
+    <td><a href="https://makerlab.vn/mkem07">Mạch hiển thị MKE-M07 LCD1602 I2C module</a></td>
+    <td>MakerEdu XH2.54 4Wires</td>
+  </tr>
+</tbody>
+</table>
+
+## Kết quả  
+
 Sau khi đã nạp code thành công bạn có thể xem kết quả trực tiếp trên màn hình LCD, phía sau màn hình LCD có một biến trở (màu xanh dương) để chỉnh "độ tương phản" bạn có thể dùng tua vít để điều chỉnh bạn thấy quá đậm hoặc quá mờ.
 
+![](/ex/less06/image/04_1050px-Man_hinh_LCD1602_I2C.jpg)
 Màn hình MKE-M07 LCD1602 kết nối với Port I2C của MakerEdu Shield hiển thị thông tin.
-Màn hình MKE-M07 LCD1602 kết nối với Port I2C của MakerEdu Shield hiển thị thông tin.
-Bài tập thêm
-Bài tập 1:
 
-Viết chương trình nhận ký tự từ Serial Monitor của Arduino sau đó hiển thị lên màn hình LCD / Lời giải.
-Nguồn tài liệu (tham khảo thêm)
-Tìm hiểu chi tiết về Giao thức I2C.
-Getting Started with Arduino | Arduino Documentation
-Bài viết liên quan
-Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki
-Bài 5: Điều kiển độ sáng đèn Led với Arduino (Analog Out)
-Bài 7: Bật tắt đèn tự động với cảm biến ánh sáng quang trở và đèn Led (Analog In + Digital Out)
+## Bài tập thêm
+
+### <ins>Bài tập 1:</ins>
+
+- Viết chương trình nhận ký tự từ Serial Monitor của Arduino sau đó hiển thị lên màn hình LCD / [Lời giải](/solution/README.md).
+
+## Nguồn tài liệu (tham khảo thêm)
+
+- [Tìm hiểu chi tiết về Giao thức I2C.](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)
+- [Getting Started with Arduino | Arduino Documentation](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
+
+## Bài viết liên quan
+
+- [Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki](/README.md)
+- [Bài 5: Điều kiển độ sáng đèn Led với Arduino (Analog Out)](/ex/less05/README.md)
+- [Bài 7: Bật tắt đèn tự động với cảm biến ánh sáng quang trở và đèn Led (Analog In + Digital Out)](/ex/less07/README.md)
