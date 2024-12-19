@@ -340,7 +340,7 @@ Giá trị cảm biến hiển thị lên Serial Monitor
 - **Còi** báo động khi một trong hai giá trị *"nhiệt độ"* hoặc *"độ ẩm"* vượt ngưỡng.
 - Với nhiệt độ ngưỡng giá trị là trên <ins>30ºC</ins>, còn với độ ẩm ngưỡng giá trị là trên <ins>80%</ins>.
 - Thêm mạch đèn **Led** để tự động bật đèn khi trời tối, độ sáng đèn sẽ được điều chỉnh bằng **Biến trở**.  
-→ Lời giải.
+→ [Lời giải](/solution/README.md).
 
 ## Nguồn tài liệu (tham khảo thêm)
 
