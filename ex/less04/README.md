@@ -63,6 +63,7 @@ Các bạn có thể tìm hiểu thêm bài viết về [Tín hiệu Analog, Dig
 - Kết nối mạch MakerEdu Shield với mạch Vietduino Uno [theo hướng dẫn](https://makerlab.vn/vietduinosd).
 - Kết nối mạch Vietduino Uno với máy tính qua cáp USB-C sẽ thấy đèn nguồn (ON) trên mạch MakerEdu Shield phát sáng, cài đặt Driver và cấu hình mạch trên phần mềm Arduino [theo hướng dẫn tại đây](https://makerlab.vn/vuno).
 - Tìm hiểu về cấu trúc của một chương trình trên phầm mềm Arduino và ngôn ngữ lập trình Arduino tại đây.
+
 ![](/ex/less04/image/03_1050px-connect.jpg)
 Kết nối mạch Vietduino Uno + MakerEdu Shield với máy tính
 
