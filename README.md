@@ -62,33 +62,35 @@ Workshop Hướng Dẫn Arduino Cơ Bản
 
 ### Hướng dẫn sử dụng mạch Vietduino Uno và MakerEdu Shield for Vietduino
 
-- Mạch Vietduino Uno (Arduino Uno Compatible)
-- Mạch MakerEdu Shield for Vietduino
+- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://makerlab.vn/vuno)
+- [Mạch MakerEdu Shield for Vietduino](https://makerlab.vn/vietduinosd)
 
 ## Các bài thực hành
 
-- Bài 1: Xin chào Arduino! (Serial Monitor)
-- Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)
-- Bài 3: Nhận tín hiệu từ nút nhấn với Arduino (Digital In)
-- Bài 4: Nhận tín hiệu từ biến trở với Arduino (Analog In)
-- Bài 5: Điều kiển độ sáng đèn Led với Arduino (Analog Out)
-- Bài 6: Hiển thị thông tin lên màn hình LCD với Arduino (Library)
-- Bài 7: Bật tắt đèn tự động với cảm biến ánh sáng quang trở và đèn Led (Analog In + Digital Out)
-- Bài 8: Báo cháy với cảm biến lửa và còi Buzzer (Analog In + Digital Out)
-- Bài 9: Đo nhiệt độ độ ẩm bằng cảm biến DHT11 hiển thị lên LCD1602 (Library)
-- Bài 10: Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh (Tổng hợp)
+- [Bài 1: Xin chào Arduino! (Serial Monitor)](/ex/less01/README.md)
+- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](/ex/less02/README.md)
+- [Bài 3: Nhận tín hiệu từ nút nhấn với Arduino (Digital In)](/ex/less03/README.md)
+- [Bài 4: Nhận tín hiệu từ biến trở với Arduino (Analog In)](/ex/less04/README.md)
+- [Bài 5: Điều kiển độ sáng đèn Led với Arduino (Analog Out)](/ex/less05/README.md)
+- [Bài 6: Hiển thị thông tin lên màn hình LCD với Arduino (Library)](/ex/less06/README.md)
+- [Bài 7: Bật tắt đèn tự động với cảm biến ánh sáng quang trở và đèn Led (Analog In + Digital Out)](/ex/less07/README.md)
+- [Bài 8: Báo cháy với cảm biến lửa và còi Buzzer (Analog In + Digital Out)](/ex/less08/README.md)
+- [Bài 9: Đo nhiệt độ độ ẩm bằng cảm biến DHT11 hiển thị lên LCD1602 (Library)](/ex/less09/README.md)
+- [Bài 10: Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh (Tổng hợp)](/ex/less10/README.md)
 
- Lời giải các bài tập thực hành
+ [Lời giải các bài tập thực hành](/solution/README.md)
 
 ![](/image/mke_arduino_stk5.jpg)
 1 trong 10 dự án: "Mô phỏng hệ thống giám sát môi trường trong nông nghiệp thông minh"
 
 ## Liên hệ
-Mọi thắc mắc xin liên hệ Facebook **"MakerLab.vn RnD"** hoặc Nhóm **"Maker DIY Vietnam"**.
+
+Mọi thắc mắc xin liên hệ Facebook [**"MakerLab.vn RnD"**](https://www.facebook.com/makerlabvn) hoặc Nhóm [**"Maker DIY Vietnam"**](https://www.facebook.com/groups/makervn/).
 
 Email: <contact.makerlabvn@gmail.com>
 
 ## Nhà phân phối
+
 Có thể mua Bộ MakerEdu Starter Kit for Arduino tại các nhà phân phối sau:
 
 - [Hshop.vn - Điện tử & Robot.](https://hshop.vn)
