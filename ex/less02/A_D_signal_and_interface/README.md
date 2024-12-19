@@ -19,9 +19,9 @@ Tín hiệu số (Digital) là dạng tín hiệu rời rạc được tạo ra 
 ![](/ex/less02/A_D_signal_and_interface/image/03_Fig5-an-introduction-to-digital-signal-processing.jpg)
 Mô phỏng việc chuyển đổi giữa tín hiệu Analog sang Digital và ngược lại
 
-Khi sử dụng tín hiệu tương tư (Analog) hoặc tín hiệu số (Digital) cần lưu ý về mức điện áp giao tiếp của thiết bị (như Arduino là 0~5VDC hoặc Raspberry Pi, Micro:bit là 0~3.3VDC), nếu giao tiếp quá mức điện áp quy định sẽ làm cháy (hư hỏng) thiết bị.
+Khi sử dụng tín hiệu tương tư (Analog) hoặc tín hiệu số (Digital) cần lưu ý về mức điện áp giao tiếp của thiết bị (như Arduino là 0\~5VDC hoặc Raspberry Pi, Micro:bit là 0\~3.3VDC), nếu giao tiếp quá mức điện áp quy định sẽ làm cháy (hư hỏng) thiết bị.
 
-Dưới đây là bảng điện áp định mức chuẩn TTL của thiết bị sử dụng 5VDC (như Arduino Uno), ta thấy trong bảng thì từ 2~5VDC sẽ được hiểu là mức cao (HIGH) và từ 0~0.8VDC sẽ được hiểu là mức thấp (LOW):
+Dưới đây là bảng điện áp định mức chuẩn TTL của thiết bị sử dụng 5VDC (như Arduino Uno), ta thấy trong bảng thì từ 2\~5VDC sẽ được hiểu là mức cao (HIGH) và từ 0\~0.8VDC sẽ được hiểu là mức thấp (LOW):
 
 ![](/ex/less02/A_D_signal_and_interface/image/04_518d5681ce395f1e11000000.jpg)
 Bảng định mức điệp áp Digital TTL của thiết bị sử dụng 5VDC
