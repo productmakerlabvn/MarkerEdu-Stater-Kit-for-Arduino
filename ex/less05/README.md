@@ -6,7 +6,7 @@ Như ta đã biết ở bài trước Arduino có thích hợp bộ chuyển đ�
 
 Câu trả lời là "gần được" vì Arduino không tích hợp bộ chuyển đổi DAC (Digital to Analog) để có thể xuất được tín hiệu Analog tuy nhiên ta có thể sử dụng một dạng thay thế là PWM (Pulse Width Modulation) hỗ trợ trên Arduino để có thể giả lập tương đối được tín hiệu Analog, mô phỏng kỹ thuật PWM như hình:
 
-![](/ex/less05/image/01_Pulse-width-modulation-signal-diagrams-average.jpg)
+![](/ex/less05/image/01_Pulse-width-modulation-signal-diagrams-average.jpg)  
 Kỹ thuật điều chế độ rộng xung PWM
 
 Bằng cách điều chỉnh tỷ lệ thời gian giữa xuất tín hiệu `HIGH` và xuất tín hiệu `LOW` ở của tín hiệu Digital ở một <ins>tần số cố định</ins>, ta có thể tạo ra một mức *"điện áp trung bình"*, có thể điều chỉnh được bất kì giá trị nào trong dãi điện áp từ **0 \~ 5VDC**, mang lại kết quả mô phỏng giống như tín hiệu Analog. Chức năng PWM trên mạch Vietduino Uno có độ phân giải '''8-bit''', nghĩa là bạn có thể dùng chân Digital điều chỉnh độ rộng xung với giá trị từ 0 \~ 255 tương ứng với mức điện áp trung bình xuất ra từ 0~5VDC.
@@ -142,7 +142,7 @@ Chương trình gồm các câu lệnh được đặt trong 2 hàm bắt buộc
 - `Serial.begin(baudrate)`: khởi động cổng kết nối Serial trên mạch Vietduino Uno với tốc độ (baudrate) mong muốn, các tốc độ hỗ trợ thường là: 9600, 115200,...
 `void loop()` (chứa các câu lệnh chạy lặp đi lặp lại )
 
-- `analogWrite(Pin, Value)`: xuất tín hiệu PWM (mô phỏng Analog) ra chân tín hiệu Digital hỗ trợ chức năng với giá trị từ 0~255 tương ứng với điện áp từ 0~5VDC.
+- `analogWrite(Pin, Value)`: xuất tín hiệu PWM (mô phỏng Analog) ra chân tín hiệu Digital hỗ trợ chức năng với giá trị từ 0\~255 tương ứng với điện áp từ 0\~5VDC.
 - `Serial.println(data)`: gửi dữ liệu từ mạch Vietduino Uno lên máy tính kèm theo ký tự xuống dòng, nếu dữ liệu là kiểu ký tự thì cần để trong dấu "".
 - `delay(time)`: yêu cầu Vietduino Uno chờ (không làm gì cả) trong một khoảng thời gian nhất định, đơn vị là mili giây (ms).
 
