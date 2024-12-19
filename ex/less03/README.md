@@ -2,7 +2,7 @@
 
 ## Mô tả dự án
 
-Trong bài này các bạn sẽ học cách nhận tín hiệu Digital từ các chân tín hiệu của Vietduino Uno, được sử dụng cho các ứng dụng như nhận tín hiệu từ nút nhấn điều khiển, cảm biến,... với chỉ hai trạng thái là có hoặc không, ở bài trước khi "xuất" tín hiệu Digital ta biết mức HIGH tương ứng với điện áp 5V và LOW tương ứng với 0V, tuy nhiên khi nhận tín hiệu Digital sẽ tuân theo chuẩn TTL với quy định 2~5VDC sẽ được hiểu là mức cao HIGH và từ 0~0.8VDC sẽ được hiểu là mức thấp LOW như hình sau:
+Trong bài này các bạn sẽ học cách nhận tín hiệu Digital từ các chân tín hiệu của Vietduino Uno, được sử dụng cho các ứng dụng như nhận tín hiệu từ nút nhấn điều khiển, cảm biến,... với chỉ hai trạng thái là có hoặc không, ở bài trước khi "xuất" tín hiệu Digital ta biết mức HIGH tương ứng với điện áp 5V và LOW tương ứng với 0V, tuy nhiên khi nhận tín hiệu Digital sẽ tuân theo chuẩn TTL với quy định 2\~5VDC sẽ được hiểu là mức cao HIGH và từ 0\~0.8VDC sẽ được hiểu là mức thấp LOW như hình sau:
 
 ![](/ex/less03/image/01_518d5681ce395f1e11000000.jpg)
 Bảng định mức điệp áp Digital TTL của thiết bị sử dụng 5VDC
