@@ -4,7 +4,7 @@
 
 Sau khi mạch điện được cấp nguồn, dòng điện chạy trong mạch qua các linh kiện điện tử sẽ tạo thành hai dạng tín hiệu điện cơ bản là tín hiệu số (Digital) và tín hiệu tương tự (Analog) để các linh kiện điện tử có thể ghi nhận, xử lý, giao tiếp với nhau hoặc giao tiếp với các hệ thống mạch điện khác, điểm khác nhau chính giữa hai dạng tín hiệu là tín hiệu tương tự (Analog) mang tính liên tục là một giải giá trị còn tín hiệu số (Digital) mang tính rời rạc và chỉ là các giá trị cố định.
 
-![](/ex/less02/A_D_signal_and_interface/image/01_Digital-and-Analog-Signal.jpg)
+![](/ex/less02/A_D_signal_and_interface/image/01_Digital-and-Analog-Signal.jpg)  
 Biểu thị dạng tín hiệu Analog và Digital theo thời gian.  
 
 Các thông tin của môi trường xung quanh ta hầu hết đều mang tính liên tục theo thời gian: nhiệt độ, độ ẩm, âm thanh, ánh sáng,..., các thông tin này sau khi đi qua các thành phần chuyển đổi (như cảm biến) của mạch điện sẽ được chuyển thành tín hiệu điện ở dạng tương tự (Analog) để mạch điện có thể ghi nhận và xử lý , ngược lại các mạch điện cũng có thể tạo ra các tín hiệu ở dạng tương tự (Analog) để có thể xuất thông tin trở lại môi trường thông qua các linh kiện vật lý như: Loa (âm thanh), đèn (ánh sáng), điện trở nhiệt (nhiệt độ),...., nhược điểm của tín hiệu tương tự (Analog) là dễ bị nhiễu, suy giảm tín hiệu khi truyền đi xa cũng như khả năng lưu trữ, giao tiếp bằng tín hiệu tương tự rất khó và mất nhiều tài nguyên.
@@ -19,9 +19,9 @@ Tín hiệu số (Digital) là dạng tín hiệu rời rạc được tạo ra 
 ![](/ex/less02/A_D_signal_and_interface/image/03_Fig5-an-introduction-to-digital-signal-processing.jpg)
 Mô phỏng việc chuyển đổi giữa tín hiệu Analog sang Digital và ngược lại
 
-Khi sử dụng tín hiệu tương tư (Analog) hoặc tín hiệu số (Digital) cần lưu ý về mức điện áp giao tiếp của thiết bị (như Arduino là 0~5VDC hoặc Raspberry Pi, Micro:bit là 0~3.3VDC), nếu giao tiếp quá mức điện áp quy định sẽ làm cháy (hư hỏng) thiết bị.
+Khi sử dụng tín hiệu tương tư (Analog) hoặc tín hiệu số (Digital) cần lưu ý về mức điện áp giao tiếp của thiết bị (như Arduino là 0\~5VDC hoặc Raspberry Pi, Micro:bit là 0\~3.3VDC), nếu giao tiếp quá mức điện áp quy định sẽ làm cháy (hư hỏng) thiết bị.
 
-Dưới đây là bảng điện áp định mức chuẩn TTL của thiết bị sử dụng 5VDC (như Arduino Uno), ta thấy trong bảng thì từ 2~5VDC sẽ được hiểu là mức cao (HIGH) và từ 0~0.8VDC sẽ được hiểu là mức thấp (LOW):
+Dưới đây là bảng điện áp định mức chuẩn TTL của thiết bị sử dụng 5VDC (như Arduino Uno), ta thấy trong bảng thì từ 2\~5VDC sẽ được hiểu là mức cao (HIGH) và từ 0\~0.8VDC sẽ được hiểu là mức thấp (LOW):
 
 ![](/ex/less02/A_D_signal_and_interface/image/04_518d5681ce395f1e11000000.jpg)
 Bảng định mức điệp áp Digital TTL của thiết bị sử dụng 5VDC
@@ -32,7 +32,7 @@ Các tín hiệu số (Digital) khi được kết hợp với nhau theo một q
 
 ### Chuẩn giao tiếp UART
 
-![](/ex/less02/A_D_signal_and_interface/image/05_UART_Protocol.jpg)
+![](/ex/less02/A_D_signal_and_interface/image/05_UART_Protocol.jpg)  
 Kết nối giữa hai thiết bị sử dụng chuẩn giao tiếp UART.
 
 Chuẩn giao tiếp UART là viết tắt của (Universal Asynchronous Receiver/Transmitter) tức giao tiếp truyền nhận chung không đồng bộ, sở dĩ nói là không đồng bộ vì trong chuẩn giao tiếp này không sử dụng tín hiệu Clock (xung nhịp) như các chuẩn giao tiếp khác, chuẩn giao tiếp UART được sử dụng rất phổ biến hiện nay để giao tiếp giữa 2 thiết bị với nhau với chỉ 2 dây tín hiệu là Tx (Transmitter) và Rx (Receiver). Các lưu ý khi sử dụng chuẩn giao tiếp UART:
@@ -42,7 +42,7 @@ Các thông số cấu hình giao tiếp UART giữa hai thiết bị như: Baud
 
 ### Các chuẩn giao tiếp cơ bản
 
-![](/ex/less02/A_D_signal_and_interface/image/06_900px-I2C-SDA-SCL-01.jpg)
+![](/ex/less02/A_D_signal_and_interface/image/06_900px-I2C-SDA-SCL-01.jpg)  
 Kết nối giữa các thiết bị sử dụng chuẩn giao tiếp I2C.
 
 Chuẩn giao tiếp I2C là viết tắt của (Inter-Integrated Circuit) tức chuẩn giao tiếp nội bộ giữa các mạch tích hợp ban đầu được phát triển bởi công ty Phillips Corporation (nay là NXP Semiconductors) giúp kết nối giữa nhiều thiết bị tốc độ thấp với nhau thông qua hai dây tín hiệu là SDA (Serial Data) và SCL (Serial Clock), trong chuẩn kết nối I2C sẽ có một thiết bị chủ (Master) kết nối với một hoặc nhiều thiết bị tớ (Slave), các thiết bị tớ (Slave) này sẽ được thiết lập địa chỉ khác nhau, khi cần giao tiếp thiết bị chủ (Master) sẽ gọi địa chỉ của thiết bị tớ (Slave) cần giao tiếp để trao đổi thông tin. Các lưu ý khi sử dụng chuẩn giao tiếp I2C:

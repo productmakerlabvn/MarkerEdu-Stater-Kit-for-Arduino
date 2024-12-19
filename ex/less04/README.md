@@ -6,7 +6,7 @@ Trong các bài trước ta đã học về việc đọc và xuất tín hiệu
 
 ![](/ex/less04/image/01_1050px-LM35_vout_chart.jpg)
 Đồ thị về mối liên hệ giữa nhiệt độ và điện áp của cảm biến LM35
-Để đọc được giá trị điện áp Analog thì Arduino sẽ sử dụng một bộ chuyển đổi ADC (Analog to Digital Converter) được tích hợp dô chỉ một số chân chuyên biệt trên Arduino gọi là chân Analog (trên Arduino Uno là từ A0~A5) để chuyển từ giá trị điện áp đo được thành tín hiệu số với dải giá trị điện áp tương ứng 0~5VDC là giá trị số nguyên từ 0~1023.
+Để đọc được giá trị điện áp Analog thì Arduino sẽ sử dụng một bộ chuyển đổi ADC (Analog to Digital Converter) được tích hợp dô chỉ một số chân chuyên biệt trên Arduino gọi là chân Analog (trên Arduino Uno là từ A0\~A5) để chuyển từ giá trị điện áp đo được thành tín hiệu số với dải giá trị điện áp tương ứng 0\~5VDC là giá trị số nguyên từ 0\~1023.
 
 <table><thead>
   <tr>
@@ -40,7 +40,7 @@ Trong các bài trước ta đã học về việc đọc và xuất tín hiệu
   </tr>
 </tbody>
 </table>
-Trong bài thực hành này các bạn sẽ sử dụng module biến trở của MakerEdu là một dạng điện trở dạng núm xoay nó thể thay đổi giá trị điện giữa các chân của nó theo góc xoay của trục xoay, giá trị điện trở này đã được MakerLab chuyển thành giá trị điện áp 0~5VDC, từ việc đọc giá trị điện áp này các bạn có thể biết được góc của trục xoay biến trở, các bạn sẽ thường thấy điều này trên các Amply trong nhà bạn có các núm xoay để điều khiển tăng giảm âm lượng.
+Trong bài thực hành này các bạn sẽ sử dụng module biến trở của MakerEdu là một dạng điện trở dạng núm xoay nó thể thay đổi giá trị điện giữa các chân của nó theo góc xoay của trục xoay, giá trị điện trở này đã được MakerLab chuyển thành giá trị điện áp 0\~5VDC, từ việc đọc giá trị điện áp này các bạn có thể biết được góc của trục xoay biến trở, các bạn sẽ thường thấy điều này trên các Amply trong nhà bạn có các núm xoay để điều khiển tăng giảm âm lượng.
 
 > Lưu ý:
 Các bạn có thể tìm hiểu thêm bài viết về [Tín hiệu Analog, Digital và các chuẩn giao tiếp cơ bản](/ex/less02/A_D_signal_and_interface/README.md).
@@ -63,6 +63,7 @@ Các bạn có thể tìm hiểu thêm bài viết về [Tín hiệu Analog, Dig
 - Kết nối mạch MakerEdu Shield với mạch Vietduino Uno [theo hướng dẫn](https://makerlab.vn/vietduinosd).
 - Kết nối mạch Vietduino Uno với máy tính qua cáp USB-C sẽ thấy đèn nguồn (ON) trên mạch MakerEdu Shield phát sáng, cài đặt Driver và cấu hình mạch trên phần mềm Arduino [theo hướng dẫn tại đây](https://makerlab.vn/vuno).
 - Tìm hiểu về cấu trúc của một chương trình trên phầm mềm Arduino và ngôn ngữ lập trình Arduino tại đây.
+
 ![](/ex/less04/image/03_1050px-connect.jpg)
 Kết nối mạch Vietduino Uno + MakerEdu Shield với máy tính
 
@@ -125,7 +126,7 @@ Chương trình gồm các câu lệnh được đặt trong 2 hàm bắt buộc
 
 `void loop()` (chứa các câu lệnh chạy lặp đi lặp lại )  
 
-- `analogRead(Pin)`: hàm này sẽ trả về giá trị của chân Analog cần đọc với dải giá trị điện áp tương ứng 0~5VDC là giá trị số nguyên từ 0~1023.
+- `analogRead(Pin)`: hàm này sẽ trả về giá trị của chân Analog cần đọc với dải giá trị điện áp tương ứng 0\~5VDC là giá trị số nguyên từ 0\~1023.
 - `Serial.println(data)`: gửi dữ liệu từ mạch Vietduino Uno lên máy tính kèm theo ký tự xuống dòng, nếu dữ liệu là kiểu ký tự thì cần để trong dấu "".
 
 <ins>Quá trình vận hành của chương trình như sau</ins>:

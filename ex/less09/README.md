@@ -4,7 +4,7 @@
 
 Trong bài này các bạn sẽ học các kết hợp giữa cảm biến độ ẩm nhiệt độ MKE-S14 DHT11 và màn hình LCD1602 MKE-M07 để làm một máy đo độ ẩm và nhiệt độ của phòng, cả hai thiết bị này đều phải thêm các bộ thư viện hỗ trợ để có thể sử dụng với Arduino.
 
-![](/ex/less09/image/01_F-971-04b-1000.jpg)
+![](/ex/less09/image/01_F-971-04b-1000.jpg)  
 Máy đo độ ẩm, nhiệt độ FIuke 971
 
 ## Video

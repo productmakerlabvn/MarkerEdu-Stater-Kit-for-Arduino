@@ -110,4 +110,4 @@ Bài tập 1:
 ## Bài viết liên quan
 
 - [Bộ MakerEdu Starter Kit for Arduino - MakerLab Wiki](/README.md)
-- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](/ex/less2/README.md)
+- [Bài 2: Điều khiển đèn Led chớp tắt với Arduino (Digital Out)](/ex/less02/README.md)

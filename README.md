@@ -33,9 +33,9 @@ Hình ảnh thực tế MakerEdu Starter Kit for Arduino
 ## Hướng dẫn sử dụng bộ MakerEdu Starter Kit for Arduino
 
 1. Nếu là lần đầu tiên sử dụng phần mềm Arduino và mạch Vietduino Uno các bạn cần đọc kỹ và làm theo các bước trong **"Hướng dẫn sử dụng phần mềm Arduino với các mạch Vietduino + MakerEdu Shield for Vietduino"** dưới đây trước khi vào **"Các bài thực hành"**.
-1. Nếu chưa tìm hiểu về điện tử cơ bản các bạn cần đọc qua bài "Tín hiệu Analog, Digital và các chuẩn giao tiếp cơ bản" để hiểu cách các mạch điện giao tiếp với nhau bằng tín hiệu điện như thế nào.
+1. Nếu chưa tìm hiểu về điện tử cơ bản các bạn cần đọc qua bài "[Tín hiệu Analog, Digital và các chuẩn giao tiếp cơ bản](/ex/less02/A_D_signal_and_interface/README.md)" để hiểu cách các mạch điện giao tiếp với nhau bằng tín hiệu điện như thế nào.
 1. Xây dựng một hệ thống điều khiển nhiều chức năng cần bắt đầu từ việc xây dựng các chức năng riêng lẻ, sau đó mới ghép nối thành hệ thống hoàn chỉnh sẽ giúp bạn dễ dàng phát hiện ra các lỗi gặp phải.
-1. Trong quá trình làm các bài thực hành các bạn có thể tra cứu thêm các tài liệu về "Ngôn ngữ lập trình Arduino"và "Hướng dẫn Arduino cơ bản" do chính Arduino biên soạn.
+1. Trong quá trình làm các bài thực hành các bạn có thể tra cứu thêm các tài liệu về "[Ngôn ngữ lập trình Arduino](https://www.arduino.cc/reference/en/)"và "[Hướng dẫn Arduino cơ bản](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino#conditionals)" do chính Arduino biên soạn.
 
 ## Tham gia Workshop
 
@@ -48,17 +48,7 @@ Workshop Hướng Dẫn Arduino Cơ Bản
 
 ### Hướng dẫn sử dụng Arduino cơ bản
 
-1) Giới thiệu về Arduino
-
-2) Ngôn ngữ lập trình Arduino
-
-3) Cách cài đặt phần mềm Arduino IDE
-
-4) Cách cài đặt Driver và nạp chương trình cho mạch Arduino / Arduino Compatible
-
-5) Cách cài đặt các thư viện phần cứng Arduino Library
-
-6) Cách sử dụng Serial Monitor & Serial Plotter trên phần mềm Arduino
+- [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 
 ### Hướng dẫn sử dụng mạch Vietduino Uno và MakerEdu Shield for Vietduino
 

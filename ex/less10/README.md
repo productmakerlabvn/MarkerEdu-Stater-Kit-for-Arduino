@@ -30,7 +30,6 @@ Hệ thống giám sát môi trường nông nghiệp thông minh
 - Tìm hiểu về cấu trúc của một chương trình trên phầm mềm Arduino và ngôn ngữ lập trình Arduino tại đây.
 
 ![](/ex/less10/image/03_connect.jpg)
-
 Kết nối mạch Vietduino Uno + MakerEdu Shield với máy tính
 
 ### Cài đặt bộ thư viện (Library)
