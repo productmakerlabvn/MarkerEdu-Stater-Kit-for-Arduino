@@ -4,7 +4,7 @@
 
 Trong bài thực hành tổng hợp này các bạn sẽ thực hiện mô phỏng lại một hệ thống giám sát môi trường trong nông nghiệp thông minh với các thông số ánh sáng, nhiệt độ, độ ẩm và báo hiệu khi các thông số vượt quá mức quy định.
 
-![](/ex/less10/image/01_Shutterstock_1347945488-800x450.jpg)
+![](/ex/less10/image/01_Shutterstock_1347945488-800x450.jpg)  
 Hệ thống giám sát môi trường nông nghiệp thông minh
 
 ## Video
@@ -28,7 +28,9 @@ Hệ thống giám sát môi trường nông nghiệp thông minh
 - Kết nối mạch MakerEdu Shield với mạch Vietduino Uno theo hướng dẫn.
 - Kết nối mạch Vietduino Uno với máy tính qua cáp USB-C sẽ thấy đèn nguồn (ON) trên mạch MakerEdu Shield phát sáng, cài đặt Driver và cấu hình mạch trên phần mềm Arduino theo hướng dẫn tại đây.
 - Tìm hiểu về cấu trúc của một chương trình trên phầm mềm Arduino và ngôn ngữ lập trình Arduino tại đây.
-![](/ex/less10/image/02_video.png)
+
+![](/ex/less10/image/03_connect.jpg)
+
 Kết nối mạch Vietduino Uno + MakerEdu Shield với máy tính
 
 ### Cài đặt bộ thư viện (Library)
@@ -323,11 +325,11 @@ Quá trình vận hành của chương trình như sau:
 
 Sau khi đã nạp code thành công bạn có thể xem kết quả trực tiếp trên màn hình LCD, phía sau màn hình LCD có một biến trở (màu xanh dương) để chỉnh "độ tương phản" bạn có thể dùng tua vít để điều chỉnh bạn thấy quá đậm hoặc quá mờ.
 
-![](/ex/less10/image/03_connect.jpg)
+![](/ex/less10/image/04_1350px-5048C6D5-A4C2-4507-B1D8-4B7A69862F5A_1_201_a.jpg)
 Hiển thị thông tin nhiệt độ (T), độ ẩm (H) và ánh sáng (LDR) lên màn hình LCD
 Nhấn vào *"biểu tượng kính lúp"* hoặc chọn *Tools > Serial Monitor* để mở Serial Monitor, chọn đúng tốc độ Baudrate là 115200bps để thấy giá trị cảm biến hiển thị lên Serial Monitor.
 
-![](/ex/less10/image/04_1350px-5048C6D5-A4C2-4507-B1D8-4B7A69862F5A_1_201_a.jpg)
+![](/ex/less10/image/05_1050px-Screenshot_2023-07-15_at_17.55.52.png)
 Giá trị cảm biến hiển thị lên Serial Monitor
 
 ## Bài tập thêm (nâng cao)
